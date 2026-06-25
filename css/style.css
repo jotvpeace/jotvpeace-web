@@ -70,8 +70,11 @@ body {
 }
 
 .hero-image img {
-    width: 1430px;
+    width: 45vw;
+    max-width: 600px;
     height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .hero-content {
@@ -340,13 +343,21 @@ body {
     }
 
     .hero-image {
-        padding: 100px 15px 40px;
+        padding: 120px 10px 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .hero-image img {
-        width: 85%;
-        max-width: 320px;
+        width: 90%;
+        max-width: 380px;   /* 👈 la haces más grande */
         height: auto;
+
+        display: block;
+        margin: 0 auto;
+
+        object-fit: cover;
     }
 
     .footer {
