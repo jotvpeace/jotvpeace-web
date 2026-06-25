@@ -29,6 +29,7 @@ body {
     align-items: center;
 
     padding: 0 40px;
+    
 }
 
 .navbar a {
@@ -37,6 +38,8 @@ body {
     font-size: 14px;
     letter-spacing: 2px;
     transition: 0.3s;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 12px 30px;
 }
 
 .navbar a:hover {
@@ -57,7 +60,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 120px 20px;
+    padding: 0px 20px;
     background: #000;
 }
 
@@ -66,7 +69,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    padding: 120px 20px 40px;
+    padding: 0px 20px 5px;
 }
 
 .hero-image img {
@@ -202,7 +205,7 @@ body {
 
 .show-card {
     background: rgba(255,255,255,0.03);
-    border: 1px solid rgba(255,255,255,0.08);
+    border: 1px solid rgb(255, 255, 255);
 
     overflow: hidden;
 }
