@@ -70,11 +70,8 @@ body {
 }
 
 .hero-image img {
-    width: 45vw;
-    max-width: 600px;
+    width: 1430px;
     height: auto;
-    display: block;
-    margin: 0 auto;
 }
 
 .hero-content {
