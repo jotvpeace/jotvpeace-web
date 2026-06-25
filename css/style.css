@@ -190,32 +190,62 @@ body {
 
 .shows-list {
     max-width: 1000px;
-    margin: 120px auto;
-    padding: 0 30px;
-}
+    margin: auto;
+    padding: 40px 20px 100px;
 
-.show-item {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    padding: 30px 0;
-
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+    flex-direction: column;
+    gap: 30px;
 }
 
-.show-item span {
+.show-card {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.08);
+
+    overflow: hidden;
+}
+
+.show-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.show-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.show-info .date {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #aaa;
+}
+
+.show-info h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+.show-info p {
     color: #888;
-    width: 150px;
 }
+.contact-btn {
+       display: inline-block;
 
-.show-item h3 {
-    flex: 1;
-    font-size: 1.4rem;
-}
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
 
-.show-item p {
-    color: #999;
+    padding: 12px 30px;
+
+    border: 1px solid #fff;
+
+    text-align: center;
+    letter-spacing: 2px;
+
+    transition: 0.3s;
 }
 /* CONTACTO */
 .contact-page {
