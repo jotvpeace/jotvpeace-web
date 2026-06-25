@@ -343,7 +343,7 @@ body {
     }
 
     .hero-image {
-        padding: 120px 10px 40px;
+        padding: 0px 10px 5px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -361,7 +361,7 @@ body {
     }
 
     .footer {
-        padding: 60px 20px;
+        padding: 10px 20px;
         text-align: center;
     }
 
