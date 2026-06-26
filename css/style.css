@@ -116,6 +116,30 @@ body {
     color: #777;
     letter-spacing: 1px;
 }
+.social-icons {
+    display: flex;
+    justify-content: center;  /* 👈 centra horizontalmente */
+    align-items: center;
+
+    gap: 20px;
+
+    margin: 20px 0;
+}
+.social-icons a {
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+
+    object-fit: contain;
+}
 /* AUDIOVISUAL PAGINA && MERCH */
 .audiovisual-page {
     background: #000;
@@ -368,4 +392,6 @@ body {
     .footer-logo {
         width: 60px;
     }
+    
+
 }
